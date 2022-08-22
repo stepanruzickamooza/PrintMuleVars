@@ -21,6 +21,22 @@ In your regular expressions you can use
 * \2 - Represents the value
 
 ## EXAMPLES
+Let's say we have the following config file...
+
+```
+wire:
+  db:
+    host: "192.168.18.32"
+    port: "1433" 
+    databasename: "IHDATA"   
+    user: "MuleSoftUserDev"
+zoe-sys-example:
+  host: "tst.integratewith.zoels.com"
+  port: "443"
+  path: "/sys/example/api/crossreferences"
+  timeout: "20000"
+  username: "zoels-integration"
+```
 
 ### Flatten Yaml Variables
 ```python
