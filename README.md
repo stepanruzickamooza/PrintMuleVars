@@ -20,6 +20,8 @@ In your regular expressions you can use
 * \1 - Represents the key
 * \2 - Represents the value
 
+## EXAMPLES
+
 ### Flatten Yaml Variables
 ```python
 python print_mule_vars.py -f src/zoe-sys-wire/src/main/resources/zoe-sys-wire-config.yaml
