@@ -2,11 +2,6 @@
 
 Python script which will help you to flatten Yaml configuration file, print variables from configuration file in XML format (pom.xml) or as command line arguments, e.g. -Dvariable_name=${variable_name}
 
-In your regular expressions you can use
-
-* \1 - Represents the key
-* \2 - Represents the value
-
 ```bash
 usage: print_mule_vars.py [-h] [-d] -f FILE [-i ITEM] [-r REGULAREXPRESSION] [-s SEPARATOR]
 
@@ -20,6 +15,10 @@ optional arguments:
   -s SEPARATOR, --output-separator SEPARATOR
                         Output separator
 ```
+
+In your regular expressions you can use
+* \1 - Represents the key
+* \2 - Represents the value
 
 ### Flatten Yaml Variables
 ```python
