@@ -7,6 +7,20 @@ In your regular expressions you can use
 * \1 - Represents the key
 * \2 - Represents the value
 
+```bash
+usage: print_mule_vars.py [-h] [-d] -f FILE [-i ITEM] [-r REGULAREXPRESSION] [-s SEPARATOR]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           Debug mode
+  -f FILE, --file FILE  Input yaml file
+  -i ITEM, --item ITEM  Item
+  -r REGULAREXPRESSION, --replace-regular-expression REGULAREXPRESSION
+                        Regular expression
+  -s SEPARATOR, --output-separator SEPARATOR
+                        Output separator
+```
+
 ### Flatten Yaml Variables
 ```python
 python print_mule_vars.py -f src/zoe-sys-wire/src/main/resources/zoe-sys-wire-config.yaml
