@@ -2,6 +2,11 @@
 
 Python script which will help you to flatten Yaml configuration file, print variables from configuration file in XML format (pom.xml) or as command line arguments, e.g. -Dvariable_name=${variable_name}
 
+In your regular expressions you can use
+
+* \1 - Represents the key
+* \2 - Represents the value
+
 ### Flatten Yaml Variables
 ```python
 python print_mule_vars.py -f src/zoe-sys-wire/src/main/resources/zoe-sys-wire-config.yaml
