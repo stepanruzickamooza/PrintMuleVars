@@ -28,8 +28,8 @@ wire:
   db:
     host: "192.168.18.32"
     port: "1433" 
-    databasename: "IHDATA"   
-    user: "MuleSoftUserDev"
+    databasename: "TESTDB"   
+    user: "TestUser"
 zoe-sys-example:
   host: "tst.integratewith.zoels.com"
   port: "443"
@@ -46,8 +46,8 @@ python print_mule_vars.py -f src/zoe-sys-wire/src/main/resources/zoe-sys-wire-co
 ...
 wire.replica.db.host=192.168.18.32
 wire.replica.db.port=1433
-wire.replica.db.databasename=IHDATA
-wire.replica.db.user=MuleSoftUserDev
+wire.replica.db.databasename=TESTDB
+wire.replica.db.user=TestUser
 zoe-sys-example.host=tst.integratewith.zoels.com
 zoe-sys-example.port=443
 zoe-sys-example.path=/sys/example/api/crossreferences
